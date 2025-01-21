@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes matrix-rain {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+.animate-matrix {
+  animation: matrix-rain 2s linear infinite;
+}
+
+@keyframes typing {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-typing > * {
+  animation: typing 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-typing > *:nth-child(1) { animation-delay: 0.2s; }
+.animate-typing > *:nth-child(2) { animation-delay: 0.8s; }
+.animate-typing > *:nth-child(3) { animation-delay: 1.4s; }
+.animate-typing > *:nth-child(4) { animation-delay: 2.0s; }
+.animate-typing > *:nth-child(5) { animation-delay: 2.6s; }
+.animate-typing > *:nth-child(6) { animation-delay: 3.2s; }
+
+@keyframes glitch {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(-3px, -3px);
+  }
+  66% {
+    transform: translate(3px, 3px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.animate-glitch {
+  animation: glitch 1.5s infinite ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 2s ease-in-out;
+}
+
+.animate-glitch > *:nth-child(1) { animation-delay: 0.5s; }
+.animate-glitch > *:nth-child(2) { animation-delay: 1.5s; }
+.animate-glitch > *:nth-child(3) { animation-delay: 2.5s; }
+.animate-glitch > *:nth-child(4) { animation-delay: 3.5s; }
+
+@keyframes neon {
+  0%, 100% {
+    text-shadow: 0 0 2px #fff,
+                 0 0 4px #fff,
+                 0 0 6px #fff,
+                 0 0 8px #3344ff,
+                 0 0 10px #ff5733,
+                 0 0 12px #3344ff,
+                 0 0 15px #ff5733,
+                 0 0 18px #3344ff;
+  }
+  80% {
+    text-shadow: 0 0 1px #fff,
+                 0 0 2px #fff,
+                 0 0 3px #fff,
+                 0 0 5px #3344ff,
+                 0 0 7px #ff5733,
+                 0 0 9px #3344ff,
+                 0 0 12px #ff5733,
+                 0 0 15px #3344ff;
+  }
+}
+
+.animate-neon {
+  animation: neon 1.5s ease-in-out infinite;
+  color: #fff;
+}
