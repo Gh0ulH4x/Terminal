@@ -146,7 +146,7 @@ function App() {
           <img
             src="./image.png" // Replace with your image URL
             alt="Gautam aka Gh0ulH4x"
-            className="w-40 h-40 rounded-full mx-auto" // Circular image and centered
+            className="w-40 h-40 rounded-full" // Circular image and centered
           />
         </div>
         <div class="items-center mt-8 text-xl font-bold">
