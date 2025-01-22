@@ -141,7 +141,7 @@ function App() {
     ),
 
     whoami: (
-      <div className="grid grid-cols-5 gap-4 font-mono text-emerald-400">
+      <div className="flex items-centre space-x-4 font-mono text-emerald-400">
         <div className="flex-shrink-0">
           <img
             src="./image.png" // Replace with your image URL
