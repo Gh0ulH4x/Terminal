@@ -277,7 +277,7 @@ function App() {
       <div className="flex items-center space-x-4">
         <div className="flex-shrink-0">
           <img
-            src="/public/image.png" // Replace with your image URL
+            src="./image.png" // Replace with your image URL
             alt="Gautam aka Gh0ulH4x"
             className="w-38 h-40 square-full" // Adjust size and make it circular
           />
