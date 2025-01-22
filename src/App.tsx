@@ -144,7 +144,7 @@ function App() {
       <div className="grid grid-cols-5 gap-4 font-mono text-emerald-400">
         <div className="flex-shrink-0">
           <img
-            src="/images/image.png" // Replace with your image URL
+            src="/public/image.png" // Replace with your image URL
             alt="Gautam aka Gh0ulH4x"
             className="w-40 h-40 rounded-full mx-auto" // Circular image and centered
           />
@@ -277,7 +277,7 @@ function App() {
       <div className="flex items-center space-x-4">
         <div className="flex-shrink-0">
           <img
-            src="/images/image.png" // Replace with your image URL
+            src="/public/image.png" // Replace with your image URL
             alt="Gautam aka Gh0ulH4x"
             className="w-38 h-40 square-full" // Adjust size and make it circular
           />
