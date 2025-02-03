@@ -211,13 +211,6 @@ function App() {
 
     "cat discord.txt": (
       <div className="space-y-4 p-4 bg-gray-900 text-white rounded-lg shadow-lg max-w-md mx-auto">
-      <div className="flex-shrink-0">
-          <img
-            src="./image.png" // Replace with your image URL
-            alt="Gautam aka Gh0ulH4x"
-            className="w-40 h-40 rounded-full" // Circular image and centered
-          />
-        </div>
         {/* Discord Logo */}
         <div className="flex items-center space-x-3">
           <FaDiscord className="w-12 h-12 text-blue-400" />
